@@ -1,0 +1,75 @@
+<html>
+<head>
+
+<title> 高大9th資管營報名表 </title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf8">
+
+</head>
+<body bgcolor="#b3e0ff" background="C:/Users/sammi/Desktop/php_hw/h.jfif">
+
+<font color="#b36b00">
+<b><font size="5">高大9th資管營 <後宮資嬛傳></b></font><br/>
+單人報名:$4900 團體報名:$4500/人<br/>
+如有疑問請致電:呂同學:09xx-xxx-xxx&nbsp;&nbsp;廖同學:09xx-xxx-xxx<br/>
+<form action="result.php" method="POST">
+姓名:<input type="text" name="id" ><br/>
+性別:
+<input type="radio" value="F" name="gender">女
+<input type="radio"  value="M" name="gender">男<br/>
+血型:<br/>
+<input type="radio" value="A" name="blood">A
+<input type="radio"  value="B" name="blood">B
+<input type="radio"  value="O" name="blood">O
+<input type="radio"  value="AB" name="blood">AB<br/>
+身分證字號:<input type="passward" name="ID"><br/>
+出生年月日:<input type="date"><br/>
+電話號碼:<input type="text" name="number" ><br/>
+電子郵件:<input type="email"><br/>
+通訊地址:<input type="text" name="adress" placeholder="請填寫詳細地址"><br/>
+
+飲食習慣:
+<input type="radio" value="Me" name="eat">葷
+<input type="radio"  value="Ve" name="eat">素<br/>
+
+衣服尺寸:<br/>
+<input type="radio" value="XS" name="size">XS
+<input type="radio" value="S" name="size">S
+<input type="radio" value="M" name="size">M
+<input type="radio" value="L" name="size">L
+<input type="radio" value="XL" name="size">XL
+<input type="radio" value="XXL" name="size">XXL<br/>
+
+
+特殊疾病:<br/>
+<input type="checkbox" value="no" name="disease">無
+<input type="checkbox" value="b1" name="disease">高血壓
+<input type="checkbox" value="b2" name="disease">地中海貧血
+<input type="checkbox" value="b3" name="disease">蠶豆症<br/>
+<input type="checkbox" value="b4" name="disease">糖尿病
+<input type="checkbox" value="b5" name="disease">氣喘
+<input type="checkbox" value="b6" name="disease">眩暈
+<input type="checkbox" value="b7" name="disease">小兒麻痺
+<input type="checkbox" value="b8" name="disease">過敏<input type="text" name="allergy" placeholder="過敏原"><br/>
+
+報名人數:<br/>
+<select name="quantity">
+<option value="person">單人報名</option>
+<option value="people">多人報名</option>
+</select>
+<br/>
+
+備註:</br>
+<TEXTAREA cols="70" rows="8">
+	
+</TEXTAREA>>
+<br/>
+
+<input type="reset" value="再輸一次"><br/>
+<input type="submit" value="確定送出"><br/>
+
+</font>
+</form>
+
+</body>
+
+</html>
